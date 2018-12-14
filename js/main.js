@@ -8,11 +8,11 @@ function myFunction (){
         alert ("Triangle Equilateral");
     }
       else if(number1+number2 !== number3 ||number1+number3 !==number2 || number2+number3 !== number1){
-          alert ("Triangle Scalene")
+          alert ("Triangle Scalene");
 
     }
       else if (number1 === number2 || number1 < number3 || number2 < number3){
-          alert ("Triangle Isosceles")
+          alert ("Triangle Isosceles");
 
     }
     else {
