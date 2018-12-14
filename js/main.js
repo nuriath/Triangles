@@ -1,18 +1,28 @@
-//****************************/
-var triangles = function(){
-    var base = parseFloat(document.getElementById("base").value);
-    var height = parseFloat(document.getElementById("height").value);
+function myFunction (){
+    var number1 =parseInt(document.getElementById("myNumber1").Value);
+    var number2 =parseInt(document.getElementById("myNumber2").value);
+    var number3 =parseInt(document.getElementById("myNumber3").value);
 
-    var output = document.getElementById("output");
+    if (isEquilateral(number1 === number2 &&
+                      number1 === number3 && 
+                      number2 === number3)){
 
-    var area = 0.5 = base = height;
+        alert ("Triangle Equilateral");
+    }
+      else if (isScalene (number1+number2 > myNumber3 && 
+                        myNumber1+myNumber3 > myNumber2 && 
+                        myNumber2+myNumber3 > myNumber1)){
+          alert ("Triangle Scalene")
 
+    }
+      else if (isIsosceles (myNumber1 === myNumber2 && 
+                          myNumber1 >= mynumber3 && 
+                          myNumber2 >= mynumber3)){
+          alert ("Triangle Isosceles")
 
- if(isNaN(base)) isNaN(hieght)){
-     output.textcontent = "you did not enter two number.";
- }
- else{
-     var area = 0.5 * base * height;
-     output.textcontent = "Area = " + area;
- }
-};
+    }
+    else {
+        alert("No Triangle")
+    }
+}
+    
