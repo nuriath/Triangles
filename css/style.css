@@ -1,8 +1,11 @@
-*{
-
-}
 body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_S-goT3iUs_PP29HdERi8TpmtAIfTorj1ER3zzAtNgaLMScvIqA");
     font-family:'Tangerine', serif;
     font-size: 20px;
 }
+
+h1,h2{
+    color: #004d4d;
+    display:inline;
+}
+
