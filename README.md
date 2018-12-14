@@ -1,7 +1,11 @@
 # Triangles
- 
+ ```
  A triangle is a kind of shape that have tree side and tree angels
- 
+ ```
+     ```
+     Mwangaza Nuriath
+     ```
+
  ## function
 
  function myFunction (){
@@ -25,3 +29,9 @@
         ("No Triangle)
     }    
  }
+  ### Setup used
+
+  ```
+  *Google chrom
+  *Visual Studio Code.
+  ```
