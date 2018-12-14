@@ -35,3 +35,9 @@
   *Google chrom
   *Visual Studio Code.
   ```
+  ### Contributors
+  ```
+  Mwangaza Nuriath (mnuriath28@gmail.com),
+  ```
+  ### Lincense & Copyright
+  (c) Mwangaza Nuriath
