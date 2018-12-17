@@ -6,36 +6,21 @@
      ```
      Mwangaza Nuriath is a softer developer since october 2018,
      ```
-
- ## function
-
- function myFunction (){
-    var number1 =parseInt(document.getElementById("number1").value);
-    var number2 =parseInt(document.getElementById("number2").value);
-    var number3 =parseInt(document.getElementById("number3").value);
-
-    if (number1 === number2 && number1 === number3 && number2 === number3){
-
-        alert ("Triangle Equilateral");
-    }
-      else if(number1+number2 !== number3 ||number1+number3 !==number2 || number2+number3 !== number1){
-          alert ("Triangle Scalene");
-
-    }
-      else if (number1 === number2 || number1 < number3 || number2 < number3){
-          alert ("Triangle Isosceles");
-
-    }
-    else {
-        ("No Triangle)
-    }    
- }
   ### Setup used
 
   ```
   *Google chrom
   *Visual Studio Code.
   ```
+  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+  |Behevior                                            |Input    |   output           |  
+  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+  |if i but same number it will display an equilateral |4,4,4    |equilateral triangle|  
+  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+  |if two number are equal it will display an isoscele |4,4,5    | isoscele triangle  |
+  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+  |if three number are no equal it will display scalene|4,5,6    | scalene triangle   |
+  +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
   ### Contributors
   ```
   Mwangaza Nuriath (mnuriath28@gmail.com),
