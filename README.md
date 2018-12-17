@@ -18,7 +18,6 @@
    * Visual studio code
 
   ### Contact 
-   * phone number:(+250) 0786154788
    * E-mail: mnuriath28@gmail.com
 
   ### Contributors
