@@ -3,19 +3,21 @@ function myFunction (){
     var number2 =parseInt(document.getElementById("number2").value);
     var number3 =parseInt(document.getElementById("number3").value);
 
-    if (number1 === number2 && number1 === number3 && number2 === number3){
+    if (number1+number2>number3 && number1+number3>number2 && number2+number3>number1) {
+        if (number1 === number2 && number1 === number3){
 
-        alert ("Triangle Equilateral");
+            alert ("Triangle Equilateral");
+        }
+        
+        else if (number1 === number2 || number1 === number3 || number2 === number3){
+            alert ("Triangle Isosceles");
+    
+        }
+        else if(number1+number2 > number3 ||number1+number3 > number2 || number2+number3 > number1){
+            alert ("Triangle Scalene");
+    
+        }
     }
-      else if(number1+number2 > number3 ||number1+number3 > number2 || number2+number3 > number1){
-          alert ("Triangle Scalene");
-
-    }
-      else if (number1 === number2 || number1 < number3 || number2 < number3){
-          alert ("Triangle Isosceles");
-
-    }
-      
     else {
         alert("No Triangle")
     }
