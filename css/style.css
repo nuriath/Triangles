@@ -6,6 +6,29 @@ body{
 
 h1,h2{
     color: #004d4d;
-    display:inline;
+    padding-left: 100px;
 }
-
+h1{
+    padding-left: 200px;
+}
+p{
+    padding-left: 50px;
+}
+.numbers{
+    display: block;
+}
+input{
+ max-width: 70px;
+ border-block-end-width: 10px;
+ border-block-start-width: 10px;
+ display:block;
+ padding-left: 30px;
+ margin-block-end: 30px;
+ background-color: #004d4d;
+}
+button{
+    background-color:#004d4d;
+    width: 70px;
+    height: 40px;
+    color:whitesmoke;
+}

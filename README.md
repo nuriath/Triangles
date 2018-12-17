@@ -40,4 +40,4 @@
   Mwangaza Nuriath (mnuriath28@gmail.com),
   ```
   ### Lincense & Copyright
-  (c) Mwangaza Nuriath, 2018 
+  (c) Mwangaza Nuriath, 2018

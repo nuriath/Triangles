@@ -7,7 +7,7 @@ function myFunction (){
 
         alert ("Triangle Equilateral");
     }
-      else if(number1+number2 !== number3 ||number1+number3 !==number2 || number2+number3 !== number1){
+      else if(number1+number2 > number3 ||number1+number3 > number2 || number2+number3 > number1){
           alert ("Triangle Scalene");
 
     }
@@ -15,6 +15,7 @@ function myFunction (){
           alert ("Triangle Isosceles");
 
     }
+      
     else {
         alert("No Triangle")
     }
