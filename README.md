@@ -1,4 +1,4 @@
-# Triangles
+# Triangle Tracker
  ```
  A triangle is a kind of shape that have tree side and tree angels
  ```
