@@ -1,6 +1,6 @@
 # Triangle Tracker
  ```
- A triangle is a kind of shape that have tree side and tree angels
+ In this project of tracking a triangle, i've use the javascript to track if a triangle is an equilateral, isosceles, scalene or if these is not a tringle to track.
  ```
   ### Author
      ```
