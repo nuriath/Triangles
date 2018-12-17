@@ -2,8 +2,9 @@
  ```
  A triangle is a kind of shape that have tree side and tree angels
  ```
+  ### Author
      ```
-     Mwangaza Nuriath
+     Mwangaza Nuriath is a softer developer since october 2018,
      ```
 
  ## function
